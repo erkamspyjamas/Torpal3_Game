@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PortalGun
+  - 1
+  - 2
+  - Wall
+  - bullet
+  - Orange Portal
+  - Blue Portal
+  - Beam
+  - button
+  - plate
+  - door
+  - lastplate
+  - plate2
+  - bplate
+  - button2
+  - e4b1
+  - e4b2
+  - e4b3
+  - e4b4
+  - e4plate
+  - bplate2
+  - exitGate
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Ground
+  - Player
+  - Teleporting
+  - Walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
