@@ -1,0 +1,544 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655065893991410, "dur":1337, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065893992754, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655065893992797, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655065893992811, "dur":541, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655065893993376, "dur":453, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065893993829, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085736, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085923, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085934, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085936, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085941, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085942, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085947, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085948, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085953, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085954, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085961, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085962, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085967, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085968, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085972, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085973, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085978, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085979, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085984, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085985, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085989, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085990, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085996, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895085997, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895086002, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895086010, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895086050, "dur":2311, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655065893993861, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065893993861, "dur":4087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065893997951, "dur":32463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1655065894030418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065894030431, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1655065894033008, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655065894033102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065894033109, "dur":121742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655065894154894, "dur":473895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894628795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065894628803, "dur":32237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894661089, "dur":125575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894786671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065894786681, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894787862, "dur":164816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894952685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655065894952720, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655065894953776, "dur":131992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065893993800, "dur":45, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065893993846, "dur":4104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065893997952, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655065893998091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894002871, "dur":28784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655065894031696, "dur":122669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1655065894154368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894154375, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1655065894155496, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1655065894155589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894155782, "dur":14975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1655065894170800, "dur":37685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894208491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894208499, "dur":6619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894215160, "dur":27879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894243046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894243057, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894244526, "dur":22237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894266770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894266779, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894267854, "dur":22493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894290354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894290366, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894294842, "dur":116294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894411139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894411147, "dur":23507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894434695, "dur":24018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894458717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894458725, "dur":12075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894470841, "dur":21895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894492743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894492754, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894493815, "dur":32825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894526647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894526658, "dur":15176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894541874, "dur":71697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894613577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894613588, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894614579, "dur":50647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894665231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894665240, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894666287, "dur":87115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894753408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894753416, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894754388, "dur":55924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894810318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894810329, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894811363, "dur":43965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894855335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894855345, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894856410, "dur":106925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894963341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655065894963352, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655065894964352, "dur":121406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065893993768, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065893993836, "dur":4114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065893997951, "dur":32552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655065894030505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894030516, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655065894033785, "dur":135620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894169414, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894169738, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894171059, "dur":36190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894207255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894207262, "dur":10550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894217852, "dur":25625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894243481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894243489, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894244364, "dur":67498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894311898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894311908, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894313497, "dur":50090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894364920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894364934, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894367083, "dur":44363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894411450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894411458, "dur":14162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894425665, "dur":104672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894530340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894530347, "dur":26936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894557331, "dur":60944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894618282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894618291, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894619249, "dur":104634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894723907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894723914, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894724972, "dur":169180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894894158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894894170, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655065894895673, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655065894895709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894895746, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655065894896866, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894896901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894896907, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894897800, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894897834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894897840, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894899724, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894899757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894899763, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894900689, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894900720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894900724, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894901623, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894901662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894901667, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894902516, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894902551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894902555, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894904345, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655065894904378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894904383, "dur":6921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655065894911347, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894911385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894911395, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894913355, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894913388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894913395, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894914604, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1655065894914710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894914717, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1655065894915649, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1655065894916546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894916555, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1655065894917450, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894917487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894917493, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894920643, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1655065894920677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894920682, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1655065894921479, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894921512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894921516, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655065894922469, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1655065894922503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894922508, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1655065894923287, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894923324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655065894923328, "dur":24293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655065894947656, "dur":138081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065893993793, "dur":48, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065893993841, "dur":4111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065893997952, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655065893998095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894003310, "dur":27894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655065894031243, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655065894031348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894031895, "dur":123299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655065894155233, "dur":84419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655065894239658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894239666, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655065894241912, "dur":62426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894304342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894304350, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894313486, "dur":56350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894369842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894369851, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894370804, "dur":26714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894397524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894397534, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894398634, "dur":39679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894438321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894438333, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894439990, "dur":22908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894462908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894462919, "dur":8104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894471058, "dur":109665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894580728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894580737, "dur":7576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894588350, "dur":47917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894636273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894636284, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894637438, "dur":54916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894692361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894692372, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894693363, "dur":29754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894723123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894723134, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894724078, "dur":46184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894770269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894770278, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894771428, "dur":129263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894900694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894900702, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655065894902343, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655065894902376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894902382, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655065894903096, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655065894903125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894903129, "dur":14635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655065894917798, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655065894917864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894917869, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655065894919370, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894919405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894919412, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894920989, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894921022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894921026, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894921888, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655065894921922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894921926, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655065894922704, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894922739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894922744, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655065894923611, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1655065894923644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655065894923649, "dur":24154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1655065894947832, "dur":137902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065893993831, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065893993831, "dur":4110, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065893997951, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1655065893997955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065893998797, "dur":268, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1655065893999067, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1655065893999115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065893999262, "dur":32202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1655065894031466, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655065894032051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894032058, "dur":123297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655065894155393, "dur":29228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655065894184627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894184637, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655065894186396, "dur":20290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894206691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894206701, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894210263, "dur":94317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894304583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894304589, "dur":9032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894313656, "dur":19981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894333645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894333656, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894334704, "dur":39741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894374452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894374462, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894375494, "dur":44352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894419853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894419863, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894425570, "dur":31973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894457552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894457562, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894459329, "dur":38389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894497727, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894497740, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894498852, "dur":25404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894524260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894524269, "dur":13676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894537997, "dur":36807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894574814, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894574836, "dur":10631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894585509, "dur":60259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894645802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894645812, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894646742, "dur":105604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894752353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894752363, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894753677, "dur":231212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894984895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655065894984904, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655065894987278, "dur":98463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065893993858, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065893993859, "dur":4087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065893997952, "dur":32432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1655065894030391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894030665, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1655065894031757, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1655065894031844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894031889, "dur":320944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1655065894352873, "dur":58111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894410988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894410997, "dur":14375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894425409, "dur":28701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894454115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894454125, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894455047, "dur":58186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894513240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894513249, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894514445, "dur":54507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894568958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894568968, "dur":5096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894574103, "dur":248602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894822711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065894822720, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065894824374, "dur":205456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065895029834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655065895029840, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655065895030602, "dur":55176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065893993955, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065893993956, "dur":4004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065893997960, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655065893998101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894003435, "dur":264589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655065894268071, "dur":35878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894303956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894303966, "dur":8524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894312531, "dur":96746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894409284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894409293, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894410311, "dur":28720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894439035, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894439052, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894441796, "dur":79836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894521639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894521649, "dur":13312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894534999, "dur":54998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894590003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894590011, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894590940, "dur":365830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894956776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655065894956785, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655065894958277, "dur":127486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065893993983, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065893993983, "dur":3964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065893997952, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1655065893998134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894030684, "dur":124791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1655065894155532, "dur":24867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894180406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894180698, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894181549, "dur":40736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894222292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894222302, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894223503, "dur":38025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894261532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894261541, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894262752, "dur":280812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894543569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894543578, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894545531, "dur":83570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894629105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894629112, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894630481, "dur":324697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894955183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655065894955192, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655065894958787, "dur":126988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065893994068, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065893994069, "dur":3885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065893997960, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1655065893998092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065893999281, "dur":32056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1655065894031371, "dur":122925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1655065894154302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894154313, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1655065894155582, "dur":37775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894193364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894193457, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894200030, "dur":59212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894259250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894259260, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894260546, "dur":242989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894503556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894503721, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894506611, "dur":54323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894560940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894560951, "dur":11720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894572706, "dur":128695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894701410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894701420, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894702548, "dur":115310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894817865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065894817875, "dur":19120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065894837035, "dur":163943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065895000982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655065895000990, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655065895001872, "dur":83864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065893994099, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065893994100, "dur":3851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065893997953, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1655065893998092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894002821, "dur":256630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1655065894259494, "dur":45343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894308505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894308515, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894313007, "dur":62410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894375422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894375432, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894377613, "dur":21923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894399541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894399551, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894400457, "dur":21478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894421941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894421954, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894425856, "dur":24968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894450831, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894450842, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894451926, "dur":70453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894522388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894522396, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894524026, "dur":220094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894744126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894744136, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894745179, "dur":222813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894967999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655065894968007, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655065894970598, "dur":115149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065893994188, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065893994188, "dur":3765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065893997953, "dur":32470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1655065894030427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894030433, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1655065894032343, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1655065894032432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894032440, "dur":123030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1655065894155507, "dur":80269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894235783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894235802, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894237003, "dur":48160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894285168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894285177, "dur":14816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894300033, "dur":45717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894345758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894345770, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894349219, "dur":26540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894375763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894375770, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894376584, "dur":62940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894439528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894439534, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894441240, "dur":57325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894498569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894498577, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894499443, "dur":79721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894579172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894579183, "dur":7118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894586336, "dur":62087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894648429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894648440, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894649521, "dur":161845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894811370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065894811378, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065894812545, "dur":269057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065895081609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655065895081617, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655065895085701, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1655065895085705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065893994236, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065893994236, "dur":3719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065893997955, "dur":32458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1655065894030416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894030430, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1655065894033824, "dur":165661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894199492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894199570, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894205532, "dur":21413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894226952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894226964, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894228027, "dur":20698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894248745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894248755, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894249752, "dur":33743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894283502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894283512, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894284661, "dur":63080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894347749, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894347771, "dur":6282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894354203, "dur":27193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894381404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894381414, "dur":8254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894389708, "dur":68711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894458483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894458509, "dur":27970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894486532, "dur":21385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894507924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894507934, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894509013, "dur":20845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894529873, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894529895, "dur":14583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894544518, "dur":104027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894648549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894648557, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894649773, "dur":141273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894791053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894791063, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894792899, "dur":127292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894920196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894920204, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655065894921232, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1655065894921266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894921270, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1655065894922180, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1655065894922216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894922220, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1655065894923063, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1655065894923097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894923101, "dur":24096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1655065894947237, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1655065894947362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655065894947370, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/Unity/Torpal3Build/Torpal3_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1655065894948165, "dur":137607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655065895089716, "dur":1802, "ph":"X", "name": "ProfilerWriteOutput" }
+,
